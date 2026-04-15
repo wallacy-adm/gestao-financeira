@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Gestão Financeira">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect x="96" y="120" width="320" height="272" rx="24" fill="#111827" stroke="#334155" stroke-width="12"/>
+  <path d="M152 320h56v40h-56zm76-88h56v128h-56zm76-48h56v176h-56z" fill="#22c55e"/>
+  <circle cx="380" cy="132" r="28" fill="#38bdf8"/>
+</svg>
