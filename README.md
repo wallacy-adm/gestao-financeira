@@ -27,3 +27,22 @@ Aplicação React + Vite para gestão financeira com:
 npm install
 cp .env.example .env
 npm run dev
+```
+
+## Banco (Lovable Cloud)
+
+1. Crie/configure o projeto na **Lovable Cloud**.
+2. Execute `supabase/schema.sql` no SQL Editor do ambiente da Lovable Cloud.
+3. Preencha `.env` com URL e anon key da Lovable Cloud.
+
+## Observações de segurança
+
+- O exemplo guarda `pin` no banco para simplicidade do MVP.
+- Em produção, substituir por hash + fluxo de auth robusto.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
