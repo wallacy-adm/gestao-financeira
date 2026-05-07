@@ -177,4 +177,7 @@ td {
     border: 1px solid #1f2937;
     border-radius: 8px;
   }
+  #lovable-badge { 
+    display: none !important; 
+  }
 }
